@@ -149,7 +149,7 @@ const NanCalculator = () => {
           {/* Multiline text input for ingredients list */}
           <TextInput
             style={styles.inputRecipe}
-            placeholder="Type here to translate!"
+            placeholder="Enter the list of ingredients from a recipe here."
             onChangeText={text => setText(text)}
             defaultValue={text}
             multiline
